@@ -46,14 +46,13 @@
 													echo "Senha diferente de confirmacao";
 												}
 								}
-								 ?>
-								 <?php if($_GET['v'] == 1){
+								 if($_GET['v'] == 1){
 								  	
 								  	confirmacao($_POST['senha1'],$_POST['senha2']);
 								 };
 
+								 ?> 
 
-								 ?>
 
 
 </body>
