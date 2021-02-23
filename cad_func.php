@@ -12,10 +12,10 @@
 								<input class="" type="text" name="nome">
 
 							<p>Entre com uma senha</p>
-								<input class="" type="text" name="senha">
+								<input class="" type="int" name="senha">
 
 							<p>Entre com uma senha</p>
-								<input class="" type="text" name="senha2">
+								<input class="" type="int" name="senha2">
 
 				<input  class="button" type="submit" name="enviar"  value="enviar">
 					</form>
@@ -27,7 +27,7 @@
 		
  					$server = 'localhost';
  					$user = 'phpmyadmin';
- 					$password = 'fakesenha';
+ 					$password = 'senhafake';
  					$dbname = 'phpmyadmin';
  					$port = '3306';
 

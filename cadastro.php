@@ -50,7 +50,7 @@
 								  	
 								  	confirmacao($_POST['senha1'],$_POST['senha2']);
 								 };
-ma
+
 								 ?> 
 
 
