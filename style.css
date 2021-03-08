@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,900');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+body{
+	margin-top: 30px;
+}
+.bg{
+	
+    height: 50px;
+    border:1px solid #fff;
+    color: white;
+}
+.page-home-destaque,.page-home-conteudo{
+	padding-top:50px;
+}
+
+footer , nav{
+ 	
+    text-align: center;
+    word-spacing: 10px;
+}
+a{
+	text-decoration: none;
+	font-family: 'Fredoka One', cursive;
+	color: black;
+}
+
+.bg{
+	
+    height: 50px;
+    border:1px solid #fff;
+    border-color: black;
+}
+.page-home-destaque,.page-home-conteudo{
+	padding-top:50px;
+}
+
+
+ .black{
+ 	color: black;
+ }
+ .wake{
+ 		color:white;
+ }
+ .titulo a {
+ 	color: #1C1C1C;
+ 
+ 	font-size: 30px;
+ 	
+ 	background-color: white;
+ }
+ .titulo{
+ 	width: 400px;
+ 	height: 60px;
+ 	padding-top: 5px;
+ 	background-color: white;
+   text-align: center;
+ }
+ .fiote{
+ 	position: absolute;
+ 	display: flex;
+ 	top: 200px;
+ 	font-family: 'Playfair Display', serif;
+ 	font-size: 20px;
+
+ 	
+ }
+ .fiote2{
+ 	position: absolute;
+ 	display: flex;
+ 	top: 750px;
+ 	height: 400px;
+
+ 	
+ }
+.teste:hover {
+	background-color: rgba(176,224,230);
+}
+
+.nav-links{
+
+		color: white;
+		font-size: 30px;
+
+}
+
+.sidbar_home a{
+	display: block;
+	margin-left: 40px;
+	text-decoration:none;
+	background-color: #EEDD82;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: black;
+	width: 200px;
+	height: 80px;
+	margin-top: 10px;
+	border-radius: 10px;
+};
+
+.wp-post-image a{
+
+	align-items: center;
+}
+body{
+	background-color:#D3D3D3;
+}
+
+
+

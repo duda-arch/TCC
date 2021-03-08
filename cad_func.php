@@ -1,27 +1,64 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<div class="contaier-fluid finalizar_compra">
+	<div class="row  justify-content-center">
+		<div class="col-10">
+
+		  	<form action="index.php?pg=cad_func.php&pd=<?php  echo $_GET['pd']; echo"&v=2"?>" method="post">
+				<div class="form-row cadastro">
+						<div class="form-group col-md-3">
+						      	<label for="inputEmail4">Email</label>
+						      	<input type="email" class="form-control" name="email" id="inputEmail4" placeholder="Email">
+						</div>
+						<div class="form-group col-md-3">
+						      	<label for="inputPassword4">Password</label>
+						      	<input type="password" class="form-control" name="senha1" id="inputPassword4" placeholder="Password">
+						 </div>
+						<div class="form-group col-md-3">
+						      	<label for="inputPassword4">Password</label>
+						      	<input name="senha2" type="password" class="form-control" id="inputPassword4" placeholder="Password">
+						</div>
+						    <button type="submit" class="btn btn-dark">Confirmar cadastro</button>
+				</div>
+			</form>	
+   		</div> 
+  	</div>
+</div>
 
 
-					<form action="cad_func.php?v=2" method="post">
-									
-							<p>Entre com um Usuario </p>
-								<input class="" type="text" name="nome">
+<div class="row justify-content-center">
+<small id="passwordHelpBlock" class="form-text text-muted">
 
-							<p>Entre com uma senha</p>
-								<input class="" type="int" name="senha">
+				<?php	function confirmacao($senha1,$senha2){if($senha1 == null && $senha2== null) {
 
-							<p>Entre com uma senha</p>
-								<input class="" type="int" name="senha2">
+		echo "Senha nula";
+											
+		}elseif($senha1 == $senha2){
 
-				<input  class="button" type="submit" name="enviar"  value="enviar">
-					</form>
+			echo "formulario enviado com sucesso";
+				}else{
+			echo "Senha diferente de confirmacao";
+					}
+						}
+				 if($_GET['v'] == 2){
+								  	
+			  	confirmacao($_POST['senha1'],$_POST['senha2']);
+				 };
+
+
+		 
+
+			 ?> 
+					
+</small>
+</div>		<div class="container">
+		<div class="row">
+			<img class="img-fluid imagen_cadastro"  src="imagens/<?php echo $_GET['pd'];?>.png">
+			<p class="produto_titulo"><?php echo $_GET['pd'];?></p>
+			
 
 
 
+		</div>
+		</div>	
 					<?php 
 									
 		
@@ -36,27 +73,56 @@
  					if($db_connect->connect_error == true){
  							echo'Deu merda aqui meu :' . $db_connect->connect_error;
 
- 					}elseif(isset($_POST['enviar'])){	$sql = "INSERT INTO tcc(nome,senha ) VALUES ( '".$_POST["nome"]."','".$_POST["senha"]."' )";
+ 					}elseif(isset($_POST['enviar'])){	$sql = "INSERT INTO tcc(nome,senha ) VALUES ( '".$_POST["nome"]."','".$_POST["senha1"]."' )";
 
  							if($db_connect->query($sql) == true){
 
- 								echo"Formulário enviado com sucesso";
+ 								echo"Compra Realizada com sucesso";
 
  							}else{
 
- 									echo"Não foi possivel enviar o formulário";
+ 									echo"Não foi possivel fazer essa compra";
  							}
  					}
 
-//		$cadastro = array('nome' => $_POST['nomea'] , 
-								//									'senha' => $_POST['senhaa'],
-							//									);
-
-									//			var_dump($cadastro);
 
 					 	?>
+<style type="text/css">
+	
+	.finalizar_compra{
+			
+			margin-top: 100px;
+			font-size: 30px;
+			}
+	  .text-muted{
+		font-size: 20px;
+		font-family: 'Gagalin';
+	}
+	.btn{
+		border-radius: 15px;
+		height: 50px;
+	}
 
+.form-group{
 
+	font-size: 25px;
+	color: black;
+	font-family: 'Gagalin';
+}
+.produto_titulo{
+	font-size: 40px;
+	color: red;
+	font-family: 'Gagalin';
+	margin-top: 100px;
+}
+.imagen_cadastro{
+	width: 400px;
+	height: 400px;
+}
+.imagen_cadastro:hover{
+	width: 600px;
+	height: 600px;
+	
+}
 
-</body>
-</html>
+</style>

@@ -1,3 +1,9 @@
+	
+
+
+
+
+
 	<?php 
 									
 		
@@ -15,11 +21,12 @@
  					}else{
  								//	echo "Foite dog mau";
 
- 							$sql ="SELECT * FROM tcc";
+ 							$sql ="SELECT * FROM tcc WHERE nome='asdas'";
 
  							$result = $db_connect->query($sql); 
 
-			?>
+			?>	
+				
 
  					<table>
  							<tr>
@@ -28,12 +35,12 @@
  						  </tr>			
  							<?php	while ($row = $result->fetch_assoc()) { ?>
 							<tr>		
-									<td><?php echo $row['nome'];?></td>
+									<td><?php echo $row['nome']);?></td>
 									<td><?php echo $row['senha'];?></td>
 							</tr>		
 
+								
  						<?php	} ?>	
- 					</table>
-
-			<?php }; ?> 	      		
+ 					</table>				
+	<?php }; ?> 	      		
  
