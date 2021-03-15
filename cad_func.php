@@ -1,3 +1,4 @@
+
 <div class="contaier-fluid finalizar_compra">
 	<div class="row  justify-content-center">
 		<div class="col-10">
@@ -51,9 +52,10 @@
 </small>
 </div>		<div class="container">
 		<div class="row">
-			<img class="img-fluid imagen_cadastro"  src="imagens/<?php echo $_GET['pd'];?>.png">
-			<p class="produto_titulo"><?php echo $_GET['pd'];?></p>
+			<img class="img-fluid imagen_cadastro"  src="imagens/<?php  session_start(); echo $_SESSION['produtos'][$_GET['pd']]['img'];?>.png">
+			<p class="produto_titulo"><?php session_start(); echo $_SESSION['produtos'][$_GET['pd']]["nome_product"];?></p>
 			
+
 
 
 

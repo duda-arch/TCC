@@ -19,11 +19,11 @@
 		      </li>
 
 		      <li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			        <a class="nav-link dropdown-toggle" href=index.php?pg=page-product.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			          Produtos
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="index.php?pg=page-creatina.php">Creatina</a>
+			          <a class="dropdown-item" href="index.php?pg=page-product.php&&tp=creatina">Creatina</a>
 			          <a class="dropdown-item" href="#">Hipercalorico</a>
 			          <a class="dropdown-item" href="#">Cafeina e Testosterona</a>
 			           <a class="dropdown-item" href="index.php?pg=pg-dark.php&dk=1">Dark Page</a>
