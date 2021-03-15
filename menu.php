@@ -24,8 +24,9 @@
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 			          <a class="dropdown-item" href="index.php?pg=page-product.php&&tp=creatina">Creatina</a>
-			          <a class="dropdown-item" href="#">Hipercalorico</a>
-			          <a class="dropdown-item" href="#">Cafeina e Testosterona</a>
+			          <a class="dropdown-item" href="index.php?pg=page-product.php&&tp=whey">Whey</a>
+			          <a class="dropdown-item" href="index.php?pg=page-product.php&&tp=hipercalorico">Hipercalorico</a>
+			          <a class="dropdown-item" href="index.php?pg=page-product.php&&tp=termogenicos">Termogenicos</a>
 			           <a class="dropdown-item" href="index.php?pg=pg-dark.php&dk=1">Dark Page</a>
 			        </div>
 		       </li>

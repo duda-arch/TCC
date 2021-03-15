@@ -6,8 +6,8 @@
 			<div class="col-2  teta">
 					<ul>
 						<li> <a href="index.php?pg=page-product.php&&tp=hipercalorico">Hipercalorico</li></a>
-						<li> <a href="index.php?pg=page-product.php&&tp=">Beto</li></a>
-						<li><a href="index.php?pg=page-product.php&&tp=creatina">Carreira</li></a>
+						<li> <a href="index.php?pg=page-product.php&&tp=termogenicos">Termogenicos</li></a>
+						<li><a href="index.php?pg=page-product.php&&tp=whey">Whey</li></a>
 					</ul>
 			</div>
 					<div class="col-md-2 ">
@@ -69,7 +69,7 @@
 				
 						<div class="col-md-2 segunda_parte offset-md-2">
 
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_creatina['0']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_creatina['4']['img'];?>.png">
 						<div class="descricao_product">
 									<div class="nome_product">
 							<?php echo $products_creatina['4']['nome_product']; ?>
@@ -83,7 +83,7 @@
 						</div>		
 					</div>
 					<div class="col-md-2 segunda_parte">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_creatina['1']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_creatina['5']['img'];?>.png">
 						<div class="descricao_product">
 							<div class="nome_product">
 							<?php echo $products_creatina['5']['nome_product']; ?>
@@ -97,7 +97,7 @@
 						</div>	
 					</div>
 					<div class="col-md-2 segunda_parte">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_creatina['2']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_creatina['6']['img'];?>.png">
 						<div class="descricao_product">
 							<div class="nome_product">
 							<?php echo $products_creatina['6']['nome_product']; ?>
@@ -111,7 +111,7 @@
 						</div>	
 					</div>
 					<div class="col-md-2 segunda_parte">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_creatina['3']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_creatina['7']['img'];?>.png">
 					<div class="descricao_product">
 							<div class="nome_product">
 								<?php echo $products_creatina['7']['nome_product']; ?>

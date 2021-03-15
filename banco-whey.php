@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$_SESSION['produtos'] = $products_creatina = [
+$_SESSION['produtos'] = $products_whey = [
 			            ["ID"=>0, "nome_product"=>"Creatina",
 			             		  "valor"=>'R$50.00',
 			             		  "descriçao"=>"Deus me ajude a namorar o Beto Carreira,",

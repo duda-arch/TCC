@@ -6,61 +6,61 @@
 			<div class="col-2  teta">
 					<ul>
 						<li> <a href="index.php?pg=page-product.php&&tp=creatina">Creatina</li></a>
-						<li> <a href="index.php?pg=page-product.php&&tp=whey">Whey</li></a>
-						<li><a href="index.php?pg=page-product.php&&tp=termogenicos">Termogenicos</li></a>
+						<li> <a href="index.php?pg=page-product.php&&tp=hipercalorico">Hipercalorico</li></a>
+						<li><a href="index.php?pg=page-product.php&&tp=whey">Whey</li></a>
 					</ul>
 			</div>
 					<div class="col-md-2 ">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_hipercalorico['0']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_termogenicos['0']['img'];?>.png">
 						<div class="descricao_product">
-														<div class="nome_product">
-							<?php echo $products_hipercalorico['0']['nome_product']; ?>
+							<div class="nome_product">
+							<?php echo $products_termogenicos['0']['nome_product']; ?>
 							</div>
 							
 							<div class="valor">
-							<?php echo $products_hipercalorico['0']['valor']; ?>
+							<?php echo $products_termogenicos['0']['valor']; ?>
 							</div>
 		
 							<button action="cadastro.php" type="button" class="btn botao btn-secondary"><a href="index.php?pg=cad_func.php&pd=0">Comprar</a></button>
 						</div>		
 					</div>
 					<div class="col-md-2 primeira_parte">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_hipercalorico['1']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_termogenicos['1']['img'];?>.png">
 						<div class="descricao_product">
 							<div class="nome_product">
-							<?php echo $products_hipercalorico['1']['nome_product']; ?>
+							<?php echo $products_termogenicos['1']['nome_product']; ?>
 							</div>
 							
 							<div class="valor">
-							<?php echo $products_hipercalorico['1']['valor']; ?>
+							<?php echo $products_termogenicos['1']['valor']; ?>
 							</div>
 		
 							<button action="cadastro.php" type="button" class="btn botao btn-secondary"><a href="index.php?pg=cad_func.php&pd=1">Comprar</a></button>
 						</div>	
 					</div>
 					<div class="col-md-2 primeira_parte">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_hipercalorico['2']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_termogenicos['2']['img'];?>.png">
 						<div class="descricao_product">
 							<div class="nome_product">
-							<?php echo $products_hipercalorico['2']['nome_product']; ?>
+							<?php echo $products_termogenicos['2']['nome_product']; ?>
 							</div>
 							
 							<div class="valor">
-							<?php echo $products_hipercalorico['2']['valor']; ?>
+							<?php echo $products_termogenicos['2']['valor']; ?>
 							</div>
 		
 							<button action="cadastro.php" type="button" class="btn botao btn-secondary"><a href="index.php?pg=cad_func.php&pd=2">Comprar</a></button>
 						</div>	
 					</div>
 					<div class="col-md-2 primeira_parte ">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_hipercalorico['3']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_termogenicos['3']['img'];?>.png">
 						<div class="descricao_product">
 							<div class="nome_product">
-							<?php echo $products_hipercalorico['3']['nome_product']; ?>
+							<?php echo $products_termogenicos['3']['nome_product']; ?>
 							</div>
 							
 							<div class="valor">
-							<?php echo $products_hipercalorico['3']['valor']; ?>
+							<?php echo $products_termogenicos['3']['valor']; ?>
 							</div>
 		
 							<button action="cadastro.php" type="button" class="btn botao btn-secondary"><a href="index.php?pg=cad_func.php&pd=3">Comprar</a></button>
@@ -69,56 +69,56 @@
 				
 						<div class="col-md-2 segunda_parte offset-md-2">
 
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_hipercalorico['4']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_termogenicos['4']['img'];?>.png">
 						<div class="descricao_product">
 									<div class="nome_product">
-							<?php echo $products_hipercalorico['4']['nome_product']; ?>
+							<?php echo $products_termogenicos['4']['nome_product']; ?>
 							</div>
 							
 							<div class="valor">
-							<?php echo $products_hipercalorico['4']['valor']; ?>
+							<?php echo $products_termogenicos['4']['valor']; ?>
 							</div>
 		
 							<button action="cadastro.php" type="button" class="btn botao btn-secondary"><a href="index.php?pg=cad_func.php&pd=4">Comprar</a></button>
 						</div>		
 					</div>
 					<div class="col-md-2 segunda_parte">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_hipercalorico['5']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_termogenicos['5']['img'];?>.png">
 						<div class="descricao_product">
 							<div class="nome_product">
-							<?php echo $products_hipercalorico['5']['nome_product']; ?>
+							<?php echo $products_termogenicos['5']['nome_product']; ?>
 							</div>
 							
 							<div class="valor">
-							<?php echo $products_hipercalorico['5']['valor']; ?>
+							<?php echo $products_termogenicos['5']['valor']; ?>
 							</div>
 		
 							<button action="cadastro.php" type="button" class="btn botao btn-secondary"><a href="index.php?pg=cad_func.php&pd=5">Comprar</a></button>
 						</div>	
 					</div>
 					<div class="col-md-2 segunda_parte">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_hipercalorico['6']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_termogenicos['6']['img'];?>.png">
 						<div class="descricao_product">
 							<div class="nome_product">
-							<?php echo $products_hipercalorico['6']['nome_product']; ?>
+							<?php echo $products_termogenicos['6']['nome_product']; ?>
 							</div>
 							
 							<div class="valor">
-							<?php echo $products_hipercalorico['6']['valor']; ?>
+							<?php echo $products_termogenicos['6']['valor']; ?>
 							</div>
 		
 							<button action="cadastro.php" type="button" class="btn botao btn-secondary"><a href="index.php?pg=cad_func.php&pd=6">Comprar</a></button>
 						</div>	
 					</div>
 					<div class="col-md-2 segunda_parte">
-						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_hipercalorico['7']['img'];?>.png">
+						<img class="img-fluid imagem_produto" alt="Responsive image"  src="imagens/<?php echo $products_termogenicos['3']['img'];?>.png">
 					<div class="descricao_product">
 							<div class="nome_product">
-								<?php echo $products_hipercalorico['7']['nome_product']; ?>
+								<?php echo $products_termogenicos['7']['nome_product']; ?>
 							</div>
 								
 								<div class="valor">
-								<?php echo $products_hipercalorico['7']['valor']; ?>
+								<?php echo $products_termogenicos['7']['valor']; ?>
 								</div>
 					
 						<button action="cadastro.php" type="button" class="btn botao btn-secondary"><a href="index.php?pg=cad_func.php&pd=7">Comprar</a></button>
