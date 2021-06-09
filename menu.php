@@ -32,35 +32,7 @@
 		       </li>
 
 		    </ul>
-		    <form class="form-inline my-2 my-lg-0">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		    </form>
+		    
 		</div>
 </nav>
-
-<style type="text/css">
-@import url(//db.onlinewebfonts.com/c/240a7cb10b49b02c94ceddc459d385a9?family=Gagalin);
-
-	.bg-li {
-    background-color: #B0C4DE;
-    font-size: 20px;
-    color: white;
-    padding: 0em 10px 6px;
-}
-.logo{
-	
-	font-size: 35px;
-	font-family: 'Gagalin';
-	color: black;
-}
-.navbar-light .navbar-nav .nav-link{
-	color: black;
-}
-.btn-outline-success{
-	background-color: black;
-	font-family: 'Gagalin';
-}
-
-
-</style>
+<link rel="stylesheet" href="css/style_menu.css">

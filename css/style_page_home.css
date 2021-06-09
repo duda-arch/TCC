@@ -1,0 +1,85 @@
+@font-face {
+    font-family: shlop;
+    src: url('../fontes/shlop\ rg.ttf');
+}
+body{
+    margin-top: 90px;
+
+}
+.plx1{
+background-image: url('../imagens/paralax1.png');
+color: wheat;
+height: 250px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+.plx_logo{
+font-size: 100px;
+background-color: black;
+width: 500px;
+height: 500px;
+padding: 10px 10px 10px 10px;
+border-radius: 10px;
+}
+.plx2{
+font-size: 10em;
+margin-top: 30px;
+background-image: url('../imagens/paralax2.png');
+color: wheat;
+background-size: contain;
+font-family: 'Gagalin';
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.plx_texto{
+padding: 10px 10px 10px 10px;
+margin-left: 3.9em; 		 
+width: 60.95em;
+background-color: #728C42 ;
+text-align: center;
+height: 100px;
+}
+.plx_texto p{
+    color:white;
+    font-size:20px;
+    font-family: 'Gagalin';
+    word-spacing: 0.1em;
+
+}
+.plx3{
+    background-image: url('../imagens/ts1.jpg');
+    color: wheat;
+    height: 35em;
+    background-size: contain;
+    background-attachment: fixed;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-position: 100%;
+    border-radius: 5px;
+    }
+
+.plx_3_texto{
+    background-color:  #728C42;
+    margin-top: 10px;
+    font-family: 'Gagalin';
+    font-size: 1.7em;
+    height: 20em;
+    padding: 10px;
+    color:black;
+    margin-right: 10px;
+    margin-left: 3.1em; 		 
+
+}
+
+.plx_3_texto p {
+    padding-top: 40px;
+    padding-left: 1em;
+    color:white;
+    padding-bottom: 1em;
+    background-color: olivedrab;
+}
+.plx_logo_2{
+    font-size: 60px;
+} 

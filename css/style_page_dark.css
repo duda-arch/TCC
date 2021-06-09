@@ -1,0 +1,135 @@
+@import url(//db.onlinewebfonts.com/c/240a7cb10b49b02c94ceddc459d385a9?family=Gagalin);
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Libre+Baskerville:ital@1&display=swap');
+	@font-face {
+     font-family: shlop;
+     src: url('../fontes/shlop\ rg.ttf');
+}
+.list-group{
+	margin-top: 50px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: white;
+	text-decoration: none;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white;
+}
+.dropdown-menu ,.dropdown-item{
+	background-color: black;
+	color: green;
+}
+.navbar-light .navbar-toggler-icon{
+background-image: url('imagens/caveira.png');
+
+}
+ .tab-content li{
+
+ 	font-size: 15px;
+	font-family: 'Libre Baskerville', serif;
+	background-color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+.list-group-item.active {
+	text-align: center;
+    z-index: 2;
+    color: red;
+    background-color: #838B8B;
+    border-color: #838B8B;
+}
+.fonte{
+	font-family: shlop;
+	font-size: 30px;
+	letter-spacing: 5px;
+
+}
+.fonte_titulo{
+	font-family: shlop;
+	background-color: black;
+	letter-spacing: 5px;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin-top: 5px;
+	color: #728C42;
+}
+.fonte_titulo:hover{
+	color:#728C42;
+	background-color: red;
+}
+a{
+	font-family: shlop;
+	font-size: 20px;
+	letter-spacing: 5px;
+	background-color:none;
+}
+	.bg-li {
+    background-color: black;
+    font-size: 20px;
+    color: red;
+    padding: 0em 10px 6px;
+}
+.logo{
+	
+	font-size: 35px;
+	font-family: 'shlop';
+	color: red;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: red;
+}
+.btn-outline-success{
+	background-color: black;
+	font-family: 'shlop';
+}
+body{
+margin-top: 70px;
+}
+.chao{
+	margin-top: 10px;
+	padding-top: 50px;
+}
+
+@media screen and (min-width:0px) and (max-width:500px){
+
+.sumiu{
+		position: absolute;
+		visibility: hidden;
+	}
+
+	.list-group-item{
+		width: auto;
+		position: absolute;
+		top: -60px;
+		margin-top: 10px;
+		padding: 10px 10px;
+		align-items: center;
+		margin-left: 60px;
+	}
+
+	.desc_pro{
+		float: center;
+		position: absolute;
+		display: flex;
+		margin-top: 20px;
+		margin-left: -50%;
+
+}
+	.group2{
+		width: auto;
+		position: absolute;
+		top: 700px;
+		margin-top: 10px;
+		align-items: center;
+		margin-left: 60px;
+	}
+
+	.desc_pro1{
+		float: center;
+		position: absolute;
+		display: flex;
+		margin-top: 800px;
+		margin-left: -50%;
+
+}
+}

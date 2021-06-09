@@ -32,33 +32,50 @@
 	</div>
 </div>
 
-<div class="container  page-home-destaque ">
-
-	<div class="row md-4 justify-content-center ">
-
-		<div class="col-sm-9 d-flex justify-content-center ">
-
-			<img class="img-fluid" alt="Responsive image" src="imagens/Venon.png">
-
-		</div>
-	</div>	
-</div>
-
-
-<div class="container justify-content-center  page-home-conteudo">
+<div class="container-fluid justify-content-center  ">
 
 	<div class="row md-12 justify-content-center ">
 
-			<div class="col-md-4 d-flex justify-content-center ">
-				
-				<img class="img-fluid" alt="Responsive image" src="imagens/destaque1.png">
-
-			</div>
 			
-			<div class="col-md-4 d-flex  justify-content-center ">
+			<div class="col-md-8  plx2 ">
+			<span style="color: #728C42;" class="plx_logo logo ">Venon </span><span class="plx_logo logo" style="color: white;"> * Net</span>
+			</div>
 
-				<img class="img-fluid" alt="Responsive image" src="imagens/destaque2.png">
-
+			<div style="margin-top:30px;" class="col-md-3">
+			<img  class="img-fluid" alt="Responsive image" src="imagens/destaque1.png">
 			</div>
 	</div>
 </div>
+<div class="container-fluid">
+	<div class="row justify-content-start">
+	
+		<div class=" plx_texto ">
+		
+		<p>Treinar é viver. Tem coisa melhor do sentir a evolução do esforço no nosso corpo? </br> <span style="color: red;"> - Vem com a Venon que sua dor tera Resultado</p></span>
+		</div>
+	</div>
+	<div class="row ">
+	<div class="col-md-7  plx_3_texto ">
+	<span style="color: black;" class=" plx_logo_2 ">Venon </span><span class=" plx_logo_2 " style="color: white;"> * Net</span>
+	<p>	    A ideia de começar esse projeto veio das necessidades que os donos
+sentiram quando utilizaram o sistema de diversos sites que não propuseram ou desagregaram com as informações sobre suplementos/alimentação saudável, a Venon.net entrou no mercado justamente para isso, suprir as dificuldades e dúvidas de muitas pessoas que querem ter (ou que já tem) uma vida fitness. 
+<a href='index.php?pg=quem_somos.php'><button>Quem somos</button></a>
+</p>
+		
+		</div>
+
+	<div class="col  img-fluid plx3 ">
+	</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div style="margin-top:30px" class="row justify-content-center ">
+		<div class="col-6  produtos_destaque">
+			<img class="img-fluid" alt="Responsive image"  src="imagens/produtos_destaque.png">
+		</div>
+		<div class="col-6 produtos_destaque">
+			<img class="img-fluid" alt="Responsive image"  src="imagens/produtos_destaque2.png">
+		</div>
+
+<link rel="stylesheet" href="css/style_page_home.css">

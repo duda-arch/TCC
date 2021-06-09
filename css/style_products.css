@@ -1,0 +1,61 @@
+	@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+	body{
+		padding-top: 50px;
+
+	}
+.teta ul {
+	position: fixed;
+	background-color: #778899;
+	color: white;
+	width:auto;
+	height: 180px;
+	text-align:left;
+	padding-top: 50px;
+	list-style: none;
+	margin-left: 10px;
+	padding-right:  10px;
+	border-radius: 10px;
+}
+
+.descricao_product{
+
+		color: black;
+		 width: 100%;
+		 height: auto;
+		 font-family: 'Anton', sans-serif;
+		text-align: center;
+		background-color: #DCDCDC;
+		 align-items: center;
+		padding-bottom: 10px;
+		border-radius: 10px;
+	}
+
+.valor{
+		font-size:20px;
+		color: black;
+	}
+
+.nome_product{
+		
+		padding: 10px 10px 10px;
+		font-size: 25;
+		background-color: #728C42;
+		width: auto;
+		border:1px solid; 
+		 align-items: center;
+		 letter-spacing:1px; 
+	}
+.col-md-2{
+ 		background-color: #FFF5EE;
+ 		padding: 10px 10px 10px;
+ 		border-radius: 10px;
+	}
+
+.imagem_produto{
+		height:200px;
+		width: auto;
+	}
+.segunda_parte{
+       padding-top: 50px;
+    }
+	

@@ -1,11 +1,20 @@
 
 <div class="contaier-fluid finalizar_compra">
 	<div class="row  justify-content-center">
-		<div class="col-10">
+	<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="imagens/<?php  session_start(); echo $_SESSION['produtos'][$_GET['pd']]['img'];?>.png"alt="Card image cap">
+				<div class="card-body">
+			<a href='' style="transform: none;">	<h2 class="card-title" ><?php session_start(); echo $_SESSION['produtos'][$_GET['pd']]["nome_product"];?><a></h2>
+				<h2><span style="color: #728C42;">	<?php session_start(); echo $_SESSION['produtos'][$_GET['pd']]["valor"];?></span></h2>
+					<p class="card-text"><?php session_start(); echo $_SESSION['produtos'][$_GET['pd']]["descriçao"];?></p>
+				</div>
+				</div>
+		<div class="col-12">		
 
+		<h1>Confirmar compra</h1>
 		  	<form action="index.php?pg=cad_func.php&pd=<?php  echo $_GET['pd']; echo"&v=2"?>" method="post">
 				<div class="form-row cadastro">
-						<div class="form-group col-md-3">
+						<div class="form-group col-md-">
 						      	<label for="inputEmail4">Email</label>
 						      	<input type="email" class="form-control" name="email" id="inputEmail4" placeholder="Email">
 						</div>
@@ -14,14 +23,15 @@
 						      	<input type="password" class="form-control" name="senha1" id="inputPassword4" placeholder="Password">
 						 </div>
 						<div class="form-group col-md-3">
-						      	<label for="inputPassword4">Password</label>
+						      	<label for="inputPassword4">Password-confirmation</label>
 						      	<input name="senha2" type="password" class="form-control" id="inputPassword4" placeholder="Password">
 						</div>
-						    <button type="submit" class="btn btn-dark">Confirmar cadastro</button>
+						    <button type="submit" class="btn btn-dark">Confirmar compra</button>
 				</div>
 			</form>	
    		</div> 
   	</div>
+	  
 </div>
 
 
@@ -32,10 +42,35 @@
 
 		echo "Senha nula";
 											
-		}elseif($senha1 == $senha2){
+		}elseif($senha1 == $senha2){ ?>
+			
+			<h1 style="color: red; margin-top:-100px">
+			<?php echo"Compra Feita com Sucesso ";?>
+			</h1>
+		<?php	
+			$server = 'localhost';
+			$user = 'root';
+			$password = 'un3oztgbnç';
+			$dbname = 'TCC';
+			$port = '3306';
+			   
+				$db_connect = new mysqli($server,$user,$password,$dbname,$port);
+			   
+			if($db_connect->connect_error == true){
+					echo'Deu merda aqui meu :' . $db_connect->connect_error;
+			   
+			}else{
+				$sql = "INSERT INTO usuarios (email,senha)VALUES ( '".$_POST["email"]."','".$_POST["senha1"]."' )";
+				
+				$db_connect->query($sql);
+					
+			   
+			};
+			   
 
-			echo "formulario enviado com sucesso";
-				}else{
+				}else{?>
+			<h1 style="color: red; margin-top:-100px">
+			<?php 
 			echo "Senha diferente de confirmacao";
 					}
 						}
@@ -48,83 +83,38 @@
 		 
 
 			 ?> 
-					
+				</h1>		
 </small>
-</div>		<div class="container">
-		<div class="row">
-			<img class="img-fluid imagen_cadastro"  src="imagens/<?php  session_start(); echo $_SESSION['produtos'][$_GET['pd']]['img'];?>.png">
-			<p class="produto_titulo"><?php session_start(); echo $_SESSION['produtos'][$_GET['pd']]["nome_product"];?></p>
+</div>	
+
+
+
+
 			
 
 
 
 
-		</div>
-		</div>	
-					<?php 
-									
-		
- 					$server = 'localhost';
- 					$user = 'phpmyadmin';
- 					$password = 'senhafake';
- 					$dbname = 'phpmyadmin';
- 					$port = '3306';
-
- 						$db_connect = new mysqli($server,$user,$password,$dbname,$port);
-
- 					if($db_connect->connect_error == true){
- 							echo'Deu merda aqui meu :' . $db_connect->connect_error;
-
- 					}elseif(isset($_POST['enviar'])){	$sql = "INSERT INTO tcc(nome,senha ) VALUES ( '".$_POST["nome"]."','".$_POST["senha1"]."' )";
-
- 							if($db_connect->query($sql) == true){
-
- 								echo"Compra Realizada com sucesso";
-
- 							}else{
-
- 									echo"Não foi possivel fazer essa compra";
- 							}
- 					}
+	</div>
+</div>	
 
 
-					 	?>
-<style type="text/css">
-	
-	.finalizar_compra{
-			
-			margin-top: 100px;
-			font-size: 30px;
-			}
-	  .text-muted{
-		font-size: 20px;
-		font-family: 'Gagalin';
-	}
-	.btn{
-		border-radius: 15px;
-		height: 50px;
-	}
-
-.form-group{
-
-	font-size: 25px;
-	color: black;
-	font-family: 'Gagalin';
+<!-- Create table usuarios (
+     ID Int UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
+     email Varchar(30),
+     senha Varchar(40),
+     Primary Key (ID)) ENGINE = MyISAM; -->
+	 
+<link rel="stylesheet" href="css/style_cad_func.css">
+<style>
+*{
+	margin-top: 0;
+	padding: 0;
 }
-.produto_titulo{
-	font-size: 40px;
-	color: red;
-	font-family: 'Gagalin';
+footer{
+	margin: 0;
+}
+body{
 	margin-top: 100px;
 }
-.imagen_cadastro{
-	width: 400px;
-	height: 400px;
-}
-.imagen_cadastro:hover{
-	width: 600px;
-	height: 600px;
-	
-}
-
 </style>
