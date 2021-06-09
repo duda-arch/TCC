@@ -4,7 +4,7 @@
 		
  					$server = 'localhost';
  					$user = 'root';
- 					$password = 'un3oztgbnç';
+ 					$password = 'senha';
  					$dbname = 'TCC';
  					$port = '3306';
 
